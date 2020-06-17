@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class content section>
+<h1>Hledání školky na mapě</h1>
+<p>Zde můžete zadat adresu místa, kde hledáte školku. Vyhledávání funguje pouze na lesní školky a lesní kluby.
+Toto řešení je kombinací Pythonu, MySQL a HTML, programy naleznete na <a href="https://github.com/mbrezina/netradicni_web">GitHub profilu</a>.</p>
+
+<div  style="text-align: center">
+<img src="static/Flask.PNG" alt="lesní školka Lesinka" style="width:60%" >
+</div>
+</br>
+</br>
+
+<form method="POST" action="/skolky">
+    <table>
+        <tr><td>Kde hledáte školku?   </td><td><input type="text" name="misto"/></td><td><input type="submit" value="Zmáčkni mě!" /></td></tr>
+    </table>
+</br>
+
+
+
+</form>
+</br>
+</br>
+</div>
+<img src="static/lampion.jpg" alt="lesní školka Lesinka" style="width:100%;">
+
+
+{% endblock content %}

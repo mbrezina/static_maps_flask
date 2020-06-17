@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class content section>
+<h1>Přehled školek v oblasti: {{misto}}</h1>
+<p>Na mapě naleznete lesní školky a lesní kluby.</p>
+
+<img width="740" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom=11&scale=1&size=740x640&maptype=roadmap
+{% for item in vysledne_poradi  %}
+&markers=color:green%7Clabel:Le%7C{{item[4]}},{{item[5]}}
+{% endfor %}
+&key=AIzaSyAuYquRtR8QirPPZq3yzh7QAkOR-0yQ5l0&format=png&visual_refresh=true" alt="Google Map of {{misto}},">
+
+</br>
+</br>
+
+<table style="width: 1000px; border: 1px solid blue;">
+<tr><td>Název</td><td>Adresa</td><td>Emailová adresa</td><td>Vzdálenost</td>
+
+{% for item in vysledne_poradi  %}
+
+<tr><td style="width: 200px;">{{item[0]}}</td><td style="width: 350px;">{{item[1]}}</td><td style="width: 100px;">{{item[2]}}</td><td style="width: 10px;">{{item[3]}}km</td></tr>
+
+{% endfor %}
+</table>
+
+</br>
+</br>
+   </div>
+
+{% endblock content %}

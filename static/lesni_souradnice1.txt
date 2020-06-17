@@ -1,0 +1,131 @@
+﻿LS1; lesní klub Větvička; Plaská 877, Plzeň 323 00; skolkavetvicka@seznam.cz; 49.792382087784894; 13.389732491860741 
+LS2; LMŠ Na dvorečku, Jeden strom z.ú.; Lety pod lesem, nejbližší ulice Kejnská,Lety u Dobřichovic; jedenstrom@volny.cz; 49.91507323280198; 14.25392911534425 
+LS3; Lesní klub Pramínek - Ekocentrum Říčany; Říčany 375,25101 Říčany; barbora.smetankova@lesniklubpraminek.cz; 49.9753228; 14.6704456 
+LS4; Lesníček; Kubatova 1/32 Praha 10; lesnicek@toulcuvdvur.cz; 50.0482028; 14.519732 
+LS5; Dětský lesní klub Hájenka; Zborná 28, 586 01 Jihlava; klub.hajenka@seznam.cz; 49.4670712; 15.5939793 
+LS6; Lesní mateřská škola Permoník; Pod Kaštany, Černá Hora; lms@lmspermonik.cz; 49.41415208573644; 16.564108584412793 
+LS7; DLK Mariánka; konec ul. Samoty, Brno-Líšeň; info@lesnimarianka.cz; 49.215441685880236; 16.69888431733557 
+LS8; U Tří veverek; Přemyslova 1791/21, Nový Hradec Králové 50008; info@vsemivjemy.cz; 50.1752457; 15.863125999999966 
+LS9; Na Pasece; Hrobická 75, Zlín - Velíková, Anenská 119 Zlín-Jaroslavice; info@napasece.net; 49.28745587312788; 17.762464198217003 
+LS10; Dubínek; asi 200m polní cestou od konce ulice U zastávky, Neratovice; dubinek@dubinek.cz; 50.24837102974559; 14.528138317010644 
+LS11; Lesní dětský klub Prokopáček; Praha 5, Hlubočepská 80/57; klubprokopacek@seznam.cz; 50.04061292550049; 14.3864667133696 
+LS12; ZeMě, lesní školka a komunitní škola; Sportovní 3552, Řevnice; skolka.zeme@gmail.com; 49.9084225; 14.2370481 
+LS13; Žijem lesem; Tábor - Větrovy, 39002; monika@zijemlesem.cz; 49.39064706798824; 14.661330230566364 
+LS14; Lesní mateřská škola Samorost; Panský les, Proboštov 417 12; samorost.probostov@gmail.com; 50.66973624797953; 13.826818948349 
+LS15; Lesní klub Skaláček; Sedmihorky 72, 511 01 Turnov; lk.skalacek@seznam.cz; 50.559501287483; 15.187510076721196 
+LS16; Cesta Malého stromu; Horní Libchavy 127, 56116 Libchavy; CestaMalehoStromu@gmail.com; 50.01697504728553; 16.377323911022927 
+LS17; Rybička; Královopolská 74, Brno (zastávka Přívrat); rybicka.info@gmail.com; 49.2179643; 16.573275400000057 
+LS18; Lesní klub Zvonek; Polní ulice, Raduň, Opava; klub.zvonek@seznam.cz; 49.8958165979828; 17.945217244982928 
+LS19; Hvězdy v lese; Huberova 1; johana@passerin.cz; 50.0804475; 14.3222372 
+LS20; LMŠ Sedmikrásek; Babice nad Svitavou; 7krasek@gmail.com; 49.28193588430466; 16.700241103134204 
+LS21; Lesní školka Sluněnka Olomouc; Olomouc Slavonín, Hakenova ulice ; klub.zahradka@gmail.com; 49.33342; 17.14295 
+LS22; Sedmikvítek; Na Kvíkalce, Mníšek pod Brdy; essentia@7kvitek.cz; 49.870572384462776; 14.251704161376892 
+LS23; Bezinka; Palkovice 886, okr. Frýdek-Místek; skolka.bezinka@email.cz; 49.65167000468124; 18.308203676196285 
+LS24; Dětský lesní klub Na trojanovské pasece; Trojanovice č. ev. 19; Info@lesniskolkatrojanovice.cz; 49.527672997618026; 18.254433104507484 
+LS25; Lesní školka Šiška; Libušino údolí, 62300 Brno-Kohoutovice; lesniklubsiska@email.cz; 49.20061423897332; 16.545606484625296 
+LS26; Lesní mateřská škola skřítka Pohádky; Rovná, Zvole u Prahy, 25245; skritek.pohadka@atlas.cz; 49.9296106; 14.4187333 
+LS27; Lesní klub pro děti Napísek; Starý pískový lom, místo setkání Kukle u Svitav; lesniklubnapisek@gmail.com; 49.790347573949035; 16.4301748418427 
+LS28; Lesní školka Hrádeček; Hrádek 167, Hrádek, 739 97; slezskyhradecek@gmail.com; 49.61414689999999; 18.739321399999994 
+LS29; Dětský klub Remízek; Kraselov 53, 38716 Volenice - venkovní zázemí Milčice; anetaira@seznam.cz; 49.2329592; 13.7998503 
+LS30; Lesmír; Horova 973/6, Liberec 1 - Staré město, 46001; skolka@lesmir.cz; 50.7791636; 15.0770561 
+LS31; Lesní rodinný klub na Tišnovsku; Lomnička, č.p. 101; nesporova.adela@gmail.com; 49.3770793; 16.4298307 
+LS32; DLK V mechu a kapradí; Šlechtitelská 193, 190 14 Praha 9 - Klánovice; lesniskolka@vmechu.cz; 50.0997848; 14.6888046 
+LS33; Lesní mateřská školka Sýkorka; Mokrá Hora 77, Brno-Řečkovice; sykorka@frankbold.org; 49.2503965; 16.5984699 
+LS34; Lesní mateřská škola Prostor plus, z.s.; Zelená Hora 53/12, Kutná Hora; info@skolkavzahrade.cz; 49.9459353588986; 15.266140890707447 
+LS35; Lesní Skřítci; Bílovice nad Svitavou, Palackého 181; lesniskritci@email.cz; 49.246093; 16.6768403 
+LS36; Lesní mateřská škola Cílek; Písty; skolkacilek@email.cz; 50.1645458; 15.0012645 
+LS37; Lesní školka Medvíďata; Pode Dvory 1, Plzeň (u Seneckého rybníka); medvidata@skaut.cz; 49.785055069139354; 13.393533743377702 
+LS38; Lesní MŠ Stromeček; Jurta na dvorku, Zámecká 49/1, Měšice; lesnims.stromecek@seznam.cz; 50.1968098; 14.521379700000011 
+LS39; Lišákovo doupě; Škrétova, 508 01 Hořice; veselesem@gmail.com; 50.376465; 15.635831 
+LS40; Hvozdík; V Šerpinách, 252 06 Davle, Česká republika; os.hvozdik@gmail.com; 49.8958942; 14.3789428 
+LS41; Lesní klub Meluzína; Městečko Trnávka - Mezihoří 91, 571 01; meluzina@centrum.cz; 49.7024294; 16.7410129 
+LS42; EkoŠkolka Vidoule; Naskové 1189/1, 150 00 Praha 5 - Košíře; ekoskolkavidoule@gmail.com; 50.0684947; 14.360215 
+LS43; Lesní školka Svatošky; areál "Dětský ráj Svatošky", Doubí u Karlových Varů; martina@svatosky-skolka.cz; 50.1933612; 12.814493399999947 
+LS44; DÚLEK; Pražská 01, Úvaly, 25082; info@skolka-dulek.cz; 50.073291036544624; 14.716650618385302 
+LS45; HURÁ VEN; Na Hrázi, Hostivice; enviklub@hura-ven.cz; 50.07652909100127; 14.244021846032865 
+LS46; Dětský klub Šárynka; V Podbabě 29b, 16000 Praha 6; sarynka@ekodomov.cz; 50.1225536; 14.39037159999998 
+LS47; Satalický pramínek - lesní klub Satalice; U Obory 385, Praha 9, Satalice, 19015; praminek.satalice@gmail.com; 50.126772; 14.574743000000012 
+LS48; Lesní školka KOLEPA; Okna č. p. 3, 471 62 Okna; MyskovaIveta@seznam.cz; 50.527873; 14.6718915 
+LS49; Lesní školka Ostružinka; Fügnerova  295 Jičín 506 01; johanab@seznam.cz; 50.4651972; 15.337506200000007 
+LS50; MEZI STROMY; Milíčovský les, Praha 11 - Háje; lmk@mezi-stromy.cz; 50.024592684638044; 14.541477875528358 
+LS51; Lesní školka Mokrovraty; Mokrovraty; skolkamokrovraty@centrum.cz; 49.803705; 14.238921 
+LS52; Lištička; Kroftova 108; listicka@listicka.org; 49.2156585; 16.5656225 
+LS53; Lesní mateřská škola V Závětří; Brno Bystrc, pod Žebětínským rybníkem; skolka.v.zavetri@gmail.com; 49.21174789004872; 16.497086471528633 
+LS54; Dětský lesní klub Stromík; Hostěnická 626, Pozořice,  664 07 ; klara.krchnava@stromik.cz; 49.22431986231109; 16.7999387659454 
+LS55; Lesní mateřská školka Za humny; Pod Rénou 1239/4, 664 91 Ivančice; tureckova.martina@gmail.com; 49.0846327; 16.4090753 
+LS56; Lesní klub HAVRÁNEK; Pod Havránkou 1253/7, Praha 7 Trója; klara@klubhavranek.cz; 50.1177231; 14.4152252 
+LS57; Lesní rodinný klub Mohykáně; Sídliště Karla Sezimy 1115, 26801 Hořovice; info.srdcemvlese@gmail.com; 49.8302183; 13.9156547 
+LS58; Lesní klub Lískáček; Jílové u Prahy; Olga.lyzbicka@centrum.cz; 49.8973373; 14.499778699999979 
+LS59; Lesní klub Mraveneček; Peklo 263; lesniklubmravenecek@gmail.com; 50.6213101; 15.6204016 
+LS60; sOOvička; Praha 10, Do Lipan; soovicka@soovakolovraty.cz; 50.00686773135226; 14.627138314116678 
+LS61; Lesní spolek Oslavánek; U Vícenického žlebu 2, Náměšť nad Oslavou 675 71; oslavanek@email.cz; 49.208397; 16.138406900000064 
+LS62; LŠ VLČÍ DOUPĚ; Krnov Ježník; lesniskolka.krnov@seznam.cz; 50.0930667; 17.640904 
+LS63; Lesní MŠ a ZŠ Devětsil; Kamenice (Praha - Východ), mezi ulicemi Hamerská a Korunní - na louce u potoka a lesa; info@devetsil.eu; 49.9052593983027; 14.575535255928116 
+LS64; LMŠ Pojďte ven; Lošov 99E, Olomouc 779 00; info@pojdteven.cz; 49.6242319638802; 17.365069522819567 
+LS65; U potůčku; Závišice 74221; lesniskolkaupotucku@gmail.com; 49.6047717; 18.1024297 
+LS66; Lesní mateřská škola Šemíček; Bílovice nad Svitavou 815; skolkasemicek@gmail.com; 49.25883653043995; 16.679740121057193 
+LS67; Libeň Monsters; Štorchova 1555/5, Praha 8 Libeň, 180 00; info@libenmonsters.cz; 50.05999909999999; 14.428438000000028 
+LS68; Cestička; lesopark Kbely, les Vinoř; cesticka@spolekcesticka.cz; 50.134236845997286; 14.558105636351456 
+LS69; Rožnovská lesní mateřská škola z.s.; Pod Kozincem 609, 75661 Rožnov pod Radhoštěm; skolka@lsroznov.cz; 49.4709303; 18.1499252 
+LS70; Svobodná základní škola a lesní mateřská škola DOMA V LESE, z.s.; Třísov; info@domavlese.cz; 48.8826647; 14.346527599999945 
+LS71; Skřítci z borovic; Litomyšlská, Choceň 565 01; skritcizborovic@seznam.cz; 49.98823441473803; 16.229877734670936 
+LS72; Ateliér Les; Pri Suchom mlyne 33, 811 04 Bratislava; miri@atelierles.sk; 48.16802759999999; 17.079215299999987 
+LS73; Přírodní školka Výhonek; Židlochovice, Komenského ; spolekvyhonek@gmail.com; 49.030485765133456; 16.627034852839643 
+LS74; LMŠ Na Větvi; Hlavní 210, Hradec Králové, 500 08; lmsnavetvi@seznam.cz; 50.171159765026616; 15.852132355572508 
+LS75; Dvoreček; Chotěboř; dvorecek@dvursychrov.cz; 49.7934131; 15.5219211 
+LS76; Radovánky - Kyjov; Kyjov - Za Humny; zanetabrhelova@seznam.cz; 49.02950185135374; 17.12728208245437 
+LS77; Lesní klub Pod Starým Dubem; Plinkout 30, Douhá Loučka 783 86; lms.Podstarymdubem@seznam.cz; 49.8412143; 17.1748861 
+LS78; Lesní mateřská škola Kulíšek; Pod Hradištěm, Minice, 27801 Kralupy nad Vltavou; dymackova.blanka@gmail.com; 50.2192337; 14.2979652 
+LS79; Mateřská škola Jurta; Vítězství 121, Děčín 405 02; petra.tanglova@jurta.cz; 50.7479465; 14.1957884 
+LS80; LK Budka Kladno; Srby 130, Tuchlovice; lk@budkakladno.cz; 50.1409975; 14.0219878 
+LS81; Dětský klub CHRPA; Raisova 247, 25229 Dobřichovice; dkchrpa@seznam.cz; 49.927792; 14.268632 
+LS82; Dětský lesní klub Kvítek; Brno - Líšeň, lokalita Zlámanky; info@lesnikvitek.cz; 49.12093; 16.42344 
+LS83; Dětský klub Klíček; M. Švabinského 371, Brandýs nad Labem - Stará Boleslav; klubklicek@gmail.com; 50.194027; 14.670553 
+LS84; V Údolí; Osinalice 24, Liběchov 277 21; renata.trckova@gmail.com; 50.4926895; 14.5163521 
+LS85; Dětský klubík MáJA,o.p.s.; Husův sbor 9.května 502, Lužná u Rakovníka; klubikmaja@email.cz; 50.1445747; 13.7657675 
+LS86; Ekoškolka Rozárka; Pod Havránkou 12/2, Praha 7 – Troja, 170 00; eva.surova@podhoubi.cz; 50.1157352; 14.4169294 
+LS87; Lesní klub Mloček; Věžnice, Bouzov; lenka.simkova@grnm.cz; 49.691965; 16.845542 
+LS88; Lesní mateřská škola Jaata; K Brnkám, Dolní Chabry, Praha 8; jaata@jaata.cz; 50.1524557; 14.4324508 
+LS89; Klub V Lese; Potoky 1398, Roztoky; esedra.os@gmail.com; 50.1684479; 14.3750329 
+LS90; LESNÍ ŠKOLKA BEROUNKA; ZA FOTBALOVÝM HŘIŠTĚM VPRAVO; info@lesniskolkaberounka.cz; 49.794320; 13.453589 
+LS91; Lesní mateřská škola Studánka; Trubská, 266 01 Trubská, okr. Beroun; lsms.beroun@gmail.com; 49.9548796; 13.9934553 
+LS92; Lesní klub Jasánek; č.p. 290, Krásná, 739 04; info@lkjasanek.cz; 49.5748147; 18.4762997 
+LS93; Dětský lesní klub Letokruh; Přívrat, st 319; letokruh.klub@seznam.cz; 49.9246035; 16.3969696 
+LS94; Lesní mateřská škola Bažinka; ; Lmshorka@gmail.com; 49.6433167; 17.1969164 
+LS95; Lesní klub Hliněnka; Hlinná 49; ivachovaneckova@seznam.cz; 50.572633; 14.108083 
+LS96; Lesní mateřská škola Venku, z.s; Zlatá stezka ev.č. 36, Brná, Ústí nad Labem; info@skolkavenku.cz; 50.6316139; 14.0638561 
+LS97; Klíček; Modrá 84; pataki@uh.cz; 49.1097459; 17.4048667 
+LS98; Lesní klub Lesokruh; Borská 1136, Třebechovice pod Orebem; lesokruh@gmail.com; 50.1958575; 16.0015853 
+LS99; Strom života - Lesní klub Letohrad; Zahradní domek č.p.2, Letohrad, 561 51; Lesniklub@lsg.cz; 50.0354347; 16.4976656 
+LS100; Chaloupka; Myslbekova ev.č. 7,  79001 Jeseník; chaloupkavlese@post.cz; 50.2341522; 17.1765650 
+LS101; Lesní mateřská škola Jelínek; Kunštát; zora.javorska@lsjelinek.cz; 49.5064506; 16.5172244 
+LS102; Lesní mateřská škola Nad Klenicí; Jemníky u Mladé Boleslavi; prirodu.detem@seznam.cz; 50.3980165; 14.9373429 
+LS103; Lesní třída Kamenka; Kamenka 86, 742 35 Odry; lesnitrida.kamenka@seznam.cz; 49.7353951; 17.7954644 
+LS104; Lesní školka Na Svinci; Kojetín 56, Nový Jičín; skolkanasvinci@gmail.com; 49.570011; 17.9921342 
+LS105; Zahradní školka Kuchyňka; ul. Květinářská, Praha; skolka@asociaceampi.cz; 50.1183364; 14.4474056 
+LS106; Přírodní dětský klub Človíček; Lesní hřiště na konci ulice Práčata, Brno - Bosonohy, 642 00; clovicek.brno@atlas.cz; 49.182202; 16.515413 
+LS107; Přírodní klub Mraveniště; Kryštofovo Údolí 76, 46001; stanaham@tiscali.cz; 50.7735621; 14.9321405 
+LS108; Světýlko; Zámek 1, Lesní Hluboké 66483; malenkakol@email.cz; 49.2654542; 16.3089481 
+LS109; Sofisa; Řepčín; sofisa@sofisa.cz; 49.6077472; 17.2338594 
+LS110; LMŠ Vážka; Srbská Kamenice 54, 407 15  Srbská Kamenice; lesni@skolkavazka.cz; 50.8226126; 14.3553649 
+LS111; Domček Lesníček; Limbach, Suchý vrch 81; lesna.skolka.domcek@gmail.com; 48.292825; 17.204579 
+LS112; Lesinka; Kaprálův mlýn, Ochoz u Brna 235, 664 02; info@lesinka.cz; 49.2424586; 16.7328751 
+LS113; Kulíšek Libčice; Pod Hájem 710, Libčice nad Vltavou; evycce@seznam.cz; 50.1929341; 14.3489397 
+LS114; Lesní klub Sasanka; Lelov,Stod 3301; lesniklubsasanka@seznam.cz; 49.6200141; 13.1649647 
+LS115; TEEPEES - Mokřínek; V Mokřinách 357, Praha 4; marketakoh@gmail.com; 50.0217548; 14.4049392 
+LS116; Tři údolí; Libčická 333/2 (přízemí), Praha 8 - Čimice, 181 00; koordinace@3udoli.cz; 50.1407678; 14.4315791 
+LS117; Zahradní klub Dešťovka; Komenského 86, Neveklov, 25756; info@klubdestovka.cz; 49.7531881; 14.5312391 
+LS118; Skřítkova školka; Na Matysáku 537, 551 01  Jaroměř; info@skritkovaskolka.cz; 50.3536657; 15.9241518 
+LS119; Lesní klub Na Větvi; Slavatovská 86, 588 56 Telč; navetvispolu@gmail.com; 49.1876439; 15.4501047 
+LS120; Lesní klub Sojka; Jundrov ev. č. 129, Brno; skolka.sojka@gmx.com; 49.2146308; 16.5503919 
+LS121; Lesní klub Pampeliška; Lesní klub Pampeliška, Palackého náměstí, Slavkov u Brna; pampeliskalk@seznam.cz; 49.1540165; 16.8751293 
+LS122; Živě v trávě; Kruplov, Jarošov nad Nežárkou; zivevtrave@gmail.com; 49.1816532; 15.0651154 
+LS123; lesní klub Lewandulka; Horova 973/6, 46001, Liberec 1; skolka@lewandulka.cz; 50.7791636; 15.0770561 
+LS124; Vrabčí hnízdo; Vrablovecká Ludgeřovice; lsvrabcihnizdo@gmail.com; 49.8811159; 18.2430647 
+LS125; Školka Na dvorku; Koterovská náves 5/5; janouskova@skolkanadvorku.cz; 49.7146643; 13.4250712 
+LS126; Soukromá MŠ a ZŠ Petrklíč; Náměstí Osvoboditelů 6, Praha-Radotín; centrum@petrklic.net; 49.9839856; 14.3584436 
+LS127; Dětský klub Zahrádka Troja; Na Farkách , Praha 7 - Troja; zahradka.klub@gmail.com; 50.124757; 14.405980 
+LS128; LMŠ Dobroděj; Březina 24, 679 05; lmsbrezina@gmail.com; 49.2777139; 16.7534284 
+LS129; Dětský lesní klub Machanka; Brno-Bystrc č. ev. 54, 635 00 Brno; info@machanka.cz; 49.2318011; 16.4623006 
+LS130; Lesíček; K Ladům 85, Praha 12; info@lesicek.cz; 49.992374; 14.43467 
+LS131; Lesní klub U Andrýska; Havlíčkova 102, Bystřice pod Hostýnem; lesniklub@uandryska.cz; 49.390138; 17.689759 

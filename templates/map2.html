@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>Mapa</h1>
+
+<form method="POST" action="/skolky">
+    <table>
+        <tr><td>Kde hledáte školku?   </td><td><input type="text" name="misto"/></td></tr>
+    </table>
+    <input type="submit" value="Press Me!" />
+
+</form>
+
+</br>
+</br>
+</br>
+<img width="640" src="https://maps.googleapis.com/maps/api/staticmap?center=Česká Třebová,&zoom=11&scale=1&size=640x640&maptype=roadmap&markers=color:blue%7Clabel:Le%7C49.9246035,16.3969696&key=AIzaSyAuYquRtR8QirPPZq3yzh7QAkOR-0yQ5l0&format=png&visual_refresh=true" alt="Google Map of Brno,">
+
+
+
+{% endblock content %}
