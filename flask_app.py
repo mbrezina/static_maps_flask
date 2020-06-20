@@ -33,13 +33,16 @@ def skolky():
 
     """geolocator.geocode() je funkce, která vrátí souřadnice hledaného místa:"""
     geolocator = Nominatim(user_agent="mooi@email.cz")
-    location = geolocator.geocode(hledanemisto)
-    lat1 = location.latitude
-    lon1 = location.longitude
-    #print(lat1, lon1)
+    try:
+        location = geolocator.geocode(hledanemisto)
+        print(location.raw)
+        lat1 = location.latitude
+        lon1 = location.longitude
+        #print(lat1, lon1)
+    except AttributeError as error:
+        return render_template("zadne_skolky.html", title="Žádné školky v oblasti", misto=hledanemisto)
 
     poradi_vzdalenosti = []
-
     conn = MySQLdb.connect("martiik.mysql.pythonanywhere-services.com", "martiik", "databaze", "martiik$skolky", charset="utf8", use_unicode=True)
     c = conn.cursor()
     c.execute("SELECT * FROM lesni2")
