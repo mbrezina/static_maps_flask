@@ -4,7 +4,7 @@
 <h1>Přehled školek v oblasti: {{misto}}</h1>
 <p>Na mapě naleznete lesní školky a lesní kluby.</p>
 
-<img width="740" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom=11&scale=1&size=740x640&maptype=roadmap
+<img width="640" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom=11&scale=1&size=740x640&maptype=roadmap
 {% for item in vysledne_poradi  %}
 &markers=color:green%7Clabel:Le%7C{{item[4]}},{{item[5]}}
 {% endfor %}
