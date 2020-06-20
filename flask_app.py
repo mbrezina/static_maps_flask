@@ -8,7 +8,8 @@ app = Flask(__name__)
 
 @app.route("/")
 @app.route("/home")
-def home():
+@app.route("/map")
+def map():
     return render_template("map.html", title="Map")
 
 @app.route("/uvod")
@@ -86,7 +87,7 @@ def haversine(coord1, coord2):
 
 """
 fname = request.form.get('fname')
-
+"""
 if __name__=="__name__":
 	app.run(debug=True)
-"""
+
