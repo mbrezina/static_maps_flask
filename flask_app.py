@@ -9,23 +9,27 @@ app = Flask(__name__)
 @app.route("/")
 @app.route("/home")
 def home():
-    return render_template("home.html", title = "Najděte nejlepší školku")
+    return render_template("map.html", title="Map")
+
+@app.route("/uvod")
+def uvod():
+    return render_template("uvod.html", title = "Najděte nejlepší školku")
 
 @app.route("/projekt")
 def projekt():
     return render_template("projekt.html", title = "O projektu")
 
-@app.route("/autorky")
+@app.route("/autorka")
 def autorky():
-    return render_template("autorky.html", title = "Autorky")
+    return render_template("autorka.html", title = "Autorky")
 
 @app.route("/english")
 def english():
     return render_template("english.html", title = "English")
 
-@app.route("/map")
-def map():
-    return render_template("map.html", title = "Map")
+# @app.route("/map")
+# def map():
+#    return render_template("map.html", title = "Map")
 
 @app.route("/skolky", methods=["POST"])
 def skolky():
