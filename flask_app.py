@@ -28,10 +28,6 @@ def autorka():
 def english():
     return render_template("english.html", title = "English")
 
-# @app.route("/map")
-# def map():
-#    return render_template("map.html", title = "Map")
-
 @app.route("/skolky", methods=["POST"])
 def skolky():
     hledanemisto=request.form["misto"]
@@ -87,7 +83,7 @@ def haversine(coord1, coord2):
 
 """
 fname = request.form.get('fname')
-"""
+
 if __name__=="__name__":
 	app.run(debug=True)
-
+"""
