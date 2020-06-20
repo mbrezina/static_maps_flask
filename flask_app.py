@@ -20,7 +20,7 @@ def projekt():
     return render_template("projekt.html", title = "O projektu")
 
 @app.route("/autorka")
-def autorky():
+def autorka():
     return render_template("autorka.html", title = "Autorky")
 
 @app.route("/english")
