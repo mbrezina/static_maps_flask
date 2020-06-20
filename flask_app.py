@@ -15,9 +15,9 @@ def home():
 def uvod():
     return render_template("uvod.html", title = "Najděte nejlepší školku")
 
-@app.route("/projekt")
-def projekt():
-    return render_template("projekt.html", title = "O projektu")
+@app.route("/analyza")
+def analyza():
+    return render_template("analyza.html", title = "Analýza dat")
 
 @app.route("/autorka")
 def autorka():
