@@ -1,304 +1,421 @@
 {% extends "layout.html" %}
 {% block content %}
-    <div class content section>
+<div class content section>
 
-<h1>Projekt: Najděte nejlepší školku</h1>
-<h2>Digitální akademie Czechitas, podzim 2018</h2>
-<p>&nbsp;</p>
-<p><i>Bylo nebylo, lidé se měli rádi a měli hodně dětí. Když se pak maminky těch dětí chtěly vrátit do práce, zjistilo se, že všechny děti se do školek nevejdou.
-Česká vláda jen pomalu uvolňovala peníze na zvětšování jejich kapacity, a tak rodiče a jiní nadšenci zakládali školky vlastní.</i></p>
+    <h1>Projekt: Najděte nejlepší školku</h1>
+    <h2>Digitální akademie Czechitas, podzim 2018</h2>
+    <p>&nbsp;</p>
+    <p><i>Bylo nebylo, lidé se měli rádi a měli hodně dětí. Když se pak maminky těch dětí chtěly vrátit do práce,
+        zjistilo se, že všechny děti se do školek nevejdou.
+        Česká vláda jen pomalu uvolňovala peníze na zvětšování jejich kapacity, a tak rodiče a jiní nadšenci zakládali
+        školky vlastní.</i></p>
 
-<p>Dnes je předškolní péče pestrou směsicí různých forem a tento web by chtěl pomoci rodičům v orientaci v této směsici. Nejvíce dětí je v mateřských školách.
-Část z rodiči založených školek
-se během let dostala do systému jako soukromé mateřské školy nebo jako lesní mateřské školy.
-Díky dotacím Ministerstva práce a sociálních věcí (MPSV) vznikaly ještě další formy předškolní péče, nazývají se dětské skupiny a mikrojesle.
-Stranou systému stojí lesní kluby, které jsou právně spolky a poskytují předškolní péči o děti svým členům. Jesle, které jsme znali z minulosti, již neexistují.
-Tuto informaci jsme ověřovaly na Oddělení sociální práce, SPO a rodinné politiky Jihomoravského kraje i na Ministerstvu zdravotnictví.</p>
-<p>Kromě mateřských škol dnes zajišťují předškolní péči ještě tyto typy subjektů, nazvaly jsme je <b>netradiční školky</b>:</p>
-<ul>
-<li>lesní mateřské školy</li>
-<li>lesní kluby</li>
-<li>dětské skupiny</li>
-<li>mikrojesle</span></li>
-</ul>
-</br>
-</br>
-
-<h2>Obsah projektu</h2>
-</br>
-<div  style="text-align: center">
-<h4><a href="#proc">Proč rodiče hledají jiné školky</h4>
-<h4><a href="#pece">Typy předškolní péče v ČR</h4>
-<h4><a href="#analyza">Analýza dat</h4>
-<h4><a href="#hdp">Počet míst ve školkách vs. ekonomická úroveň</h4>
-<h4><a href="#technicke">Technické řešení projektu</h4>
-<h4><a href="#podekovani">Poděkování a odkazy</a></h4>
-</div>
-</br>
-</br>
-<div  style="text-align: center">
-<img src="static/kos.jpg" alt="lesní školka" style="width:100%" >
-<p id="proc"></p>
-</br>
-</br>
-</div>
-
-
-<h2>Proč rodiče hledají jiné školky</h2>
-<p>Dnes je nejobvyklejší tříletá rodičovská. Po jejím skončení by tříleté dítě mělo jít do školky a rodič do práce. V ideálním světě by rodiče zapsali
-dítě do obecní školky v místě bydliště a vodili ho/jí do školky. Tak tomu ale často není. Obecní školky jsou plné, někde se do nich nedostanou ani všechny
-tříleté děti, kterým zákon místo ve školce garantuje.</p>
-<p>Jak ten problém vznikl? Na přelomu osmdesátých a devadesátých let bylo v českých školkách zhruba 400 tisíc míst. K tomu existovalo 40 tisíc míst pro
-děti od půl roku v jeslích (<a href="https://www.tribune.cz/clanek/32334-jesli-v-cesku-dramaticky-ubyva">zdroj</a>).</p>
-<p>Po roce 1990 se rodilo málo dětí, kapacity mateřských škol a jeslí se rušily, nejméně míst bylo ve školním roce 2001/2002. Z tohoto propadu se český systém
-předškolní péče vzpamatovával 15 let. Proti tehdejšímu stavu dnes chybí cca 20 tisíc míst předškolní péče (když jako tehdejší srovnávací základnu počtu míst bereme místa v mateřských
-školách i v jeslích).</p>
-
-<div  style="text-align: center">
-<img src="static/pocet_mist_skolky-leta.PNG" alt="graf počtu míst ve školkách" style="width:60%" >
-</br>
-</br>
-</div>
-
-Školní rok začíná v září a je spíše vzácné, aby dítě do školky nastoupilo v průběhu školního roku. Smůlu mají děti, které
-se narodily v zimě nebo na jaře, protože školní rok začíná až v září a do školky často nastupují třeba až půl roku po třetích narozeninách. Po tuto dobu
-jeden z rodičů nemůže pracovat, pokud nejsou po ruce babičky, dědečkové, tetičky, strýčkové nebo paní na hlídání. Je to škoda, protože ženy ztrácejí
-kvalifikaci i sebevědomí. Z platu, který by dostávaly, by státu platily daně a sociální a zdravotní pojištění, tratíme na tom my všichni, protože jejich
-práce by zvyšovala veřejné zdroje.</p>
-<p>Jsou také rodiče, kteří se chtějí nebo musejí vrátit do práce dřív než po třetích narozeninách dítěte, ale předškolní péče pro dvouleté nebo dokonce roční
-děti je v ČR velmi málo dostupná. Rodičům nezbývá než hledat nějaké jiné školky. Shrňme si důvody, proč tak činí:</p>
-
-<ol>
-    <b><li>dítě se z kapacitních důvodů nedostane do mateřské školy</li>
-    <li>dítě by mělo nastoupit do školky v průběhu školního roku</li>
-    <li>rodiče chtějí dát do školky roční/dvouleté dítě</li>
-    <li>rodiče chtějí individuální péči, menší kolektiv, angličtinu, více kroužků</li>
-    <li>rodiče nejsou spokojeni s přístupem/personálem v obecní mateřské škole</li>
-    <li>dítě potřebuje menší kolektiv (např. poruchy autistického spektra)</li>
-    <li>dítě potřebuje speciální dietu (bezlepková, bezmléčná…)</li>
-    <li>dítě není očkováno podle očkovacího kalendáře</li></b>
-</ol>
-
-<p>Rodiče hledají na internetu, Facebooku, ptají se přátel a známých. Neexistuje žádný web, kde by byly všechny formy předškolní péče dohromady, rodičům nezbývá než
-googlit, obvolávat školky a ptát se, jestli nějaká netradiční školka jejich dítě přijme. Samozřejmě přitom zvažují, jestli chtějí za školku platit několik tisíc
-korun měsíčně a je těžké odhadnout, kolik lidí to vzdá, protože se jim to nevyplatí.</p>
-<p>Pro každý z těchto typů netradiční školky platí jiná pravidla pro docházku, která jsou důležitá pro výběr rodičů. Obecně se dá konstatovat, že netradiční školky mají méně
-početné třídy a jsou vhodnější i pro menší děti. Díky možným dotacím se také liší cenou, kterou rodiče platí. Někde přispívají netradičním školkám obce
-dotacemi, aby měly nižší školkovné a byly rodičům dostupnější. Pro obce je levnější dotovat provoz netradiční školky než stavět novou mateřskou školu.</p>
-
-<p>Výše uvedené důvody nás vedly k vytvoření interaktivní webové stránky s ucelenými informacemi o netradičních školkách a s mapou České republiky, kde se
-dají všechny najít. Cílem našeho projektu je usnadnit rodičům nalezení nejlepší školky pro jejich dítě a také popularizovat netradiční školky.
-<p id="pece"></p>Výstupem je tato webová stránka.</p>
-</br>
-<h3>Typy předškolní péče v ČR</h3>
-<p>Podle našich dat existuje ve školním roce 2018/2019 420.543 míst předškolní péče. 97% z těchto míst se nachází v mateřských školách (MŠ). Netradiční školky
-nabízejí pouze 3% míst z kapacity předškolní péče. I když je to relativně málo, tyto netradiční školky nabízejí to, co rodiče nenalezli v mateřských školách, proto jsou rodiče
-ochotni za ně platit školkovné 3.500 - 10.000Kč měsíčně plus stravu, která je dražší, protože není dotovaná jako v MŠ.</p>
+    <p>Dnes je předškolní péče pestrou směsicí různých forem a tento web by chtěl pomoci rodičům v orientaci v této
+        směsici. Nejvíce dětí je v mateřských školách.
+        Část z rodiči založených školek
+        se během let dostala do systému jako soukromé mateřské školy nebo jako lesní mateřské školy.
+        Díky dotacím Ministerstva práce a sociálních věcí (MPSV) vznikaly ještě další formy předškolní péče, nazývají se
+        dětské skupiny a mikrojesle.
+        Stranou systému stojí lesní kluby, které jsou právně spolky a poskytují předškolní péči o děti svým členům.
+        Jesle, které jsme znali z minulosti, již neexistují.
+        Tuto informaci jsme ověřovaly na Oddělení sociální práce, SPO a rodinné politiky Jihomoravského kraje i na
+        Ministerstvu zdravotnictví.</p>
+    <p>Kromě mateřských škol dnes zajišťují předškolní péči ještě tyto typy subjektů, nazvaly jsme je <b>netradiční
+        školky</b>:</p>
+    <ul>
+        <li>lesní mateřské školy</li>
+        <li>lesní kluby</li>
+        <li>dětské skupiny</li>
+        <li>mikrojesle</span></li>
+    </ul>
     </br>
-    <div  style="text-align: center">
-<img src="static/graf_skolky_mista.PNG" alt="graf počtu míst ve školkách" style="width:70%" >
- </br>
     </br>
-</div>
 
-<h4>Mateřská škola</h4>
-<p>Je zapsaná v Rejstříku škol a školských zařízení Ministerstva školství, mládeže a tělovýchovy (MŠMT). Jsou v ní děti ve věku 3-7 let.
-Pokud to kapacita dovolí, může vzít i děti mladší tří let. Nebere neočkované děti, podává speciální dietu pouze, má-li nutričního terapeuta. Předškolní rok v MŠ je
-povinný nebo MŠ případně schvaluje individuální vzdělávací plán dětí, jejichž rodiče nechtějí, aby předškolní dítě chodilo do MŠ. Existují 3 druhy mateřských škol:</p>
-<ul>
-<li><b>obecní/městská</b></li>Jedna třída má až 24 dětí. Školkovné je symbolické, 500 - 1.000Kč. Platy personálu hradí kraje, peníze na provozní výdaje dostávají od obcí.
-<li><b>soukromá</b></li>Maximálně 24 dětí ve třídě.
-<li><b>lesní</b></li>To jsou lesní školky, které se po splnění podmínek přihlásily do rejstříku MŠMT (lesní školky, které nechtěly vstoupit do rejstříku se nazývají lesní kluby),
-dostávají dotaci od státu, environmentální program, cca 15 dětí ve třídě, měkčí hygienické normy, zázemí je v jurtě, maringotce apod. Pro účely naší analýzy je dále nazýváme lesní školky.
-</ul>
-</p>
-<h4>Lesní klub</h4>
-<p>Je to školka s environmentálním programem, která není v rejstříku MŠMT. Data o nich jsou na webu Asociace lesních školek (ALMŠ). Mohou podávat i dietní stravu, pokud to zázemí dovolí. Pro děti ve věku 2,75 - 7 let, 12 - 15 dětí ve třídě, předškoláci do lesního klubu mohou chodit,
-když si rodiče vyřídí individuální vzdělávací plán v mateřské škole, kam pak přivedou děti na přezkoušení. Provoz lesního klubu zcela hradí rodiče, např. 5.500Kč měsíčně.</p>
-
-<h4>Dětská skupina</h4>
-<p>Může brát děti od jednoho nebo dvou let až do sedmi let, záleží na vedení dětské skupiny, pro co se rozhodnou. Pouze pro děti očkované podle očkovacího kalendáře,
-typicky třída do 12 dětí, pokud je ve třídě víc dětí, platí stejná hygienická pravidla jako v MŠ. Dostávají dotace z MŠMT/ EU, na provoz přispívají i rodiče, např. 3.500Kč měsíčně.
-Kvůli štědrým dotacím zřizují dětské skupiny i obce, které jimi nahrazovaly chybějící kapacitu MŠ, například ve Šlapanicích, od rodičů pak mohou požadovat stejné (stejně nízké)
-školkovné jako v obecní mateřské škole.</p>
-<h4>Mikrojesle</h4>
-<p>Pro děti od půl roku do čtyř let, ve třídě maximálně 4 děti, pouze pro očkované děti. Dostávají dotace z MŠMT/ EU, někdy je zřizují i obce, na provoz přispívají
-i rodiče, např. 3.500Kč měsíčně.</p>
-
-<p id="analyza"></p>
-</br>
-</br>
-<h2>Analýza dat</h2>
-<p>Postup získávání dat je detailně popsán v kapitole <a href=#technicke>Technické řešení projektu</a>.
-Pro analýzu dat byla nejdůležitější data o kapacitě školek, zde
-je přehled všech subjektů předškolní péče, které máme v datovém souboru. </p>
+    <h2>Obsah projektu</h2>
+    </br>
+    <div style="text-align: center">
+        <h4><a href="#proc">Proč rodiče hledají jiné školky</h4>
+        <h4><a href="#pece">Typy předškolní péče v ČR</h4>
+        <h4><a href="#analyza">Analýza dat</h4>
+        <h4><a href="#hdp">Počet míst ve školkách vs. ekonomická úroveň</h4>
+        <h4><a href="#technicke">Technické řešení projektu</h4>
+        <h4><a href="#podekovani">Poděkování a odkazy</a></h4>
+    </div>
+    </br>
+    </br>
+    <div style="text-align: center">
+        <img src="static/kos.jpg" alt="lesní školka" style="width:100%">
+        <p id="proc"></p>
+        </br>
+        </br>
+    </div>
 
 
-<div  style="text-align: center">
-<img src="static/skolky_prehled.PNG" alt="celkový pohled na školky" style="width:60%;" >
-</div>
-</br>
-<p><b>Mateřské školy</b> mají průměrnou kapacitu 76 míst, jsou to zařízení, kde je v průměru více tříd. MŠ s
-největší kapacitou mají i přes 1000 míst pro děti. Není to jedna obrovská školka, ale je to administrativní
-sloučení více MŠ do jedné. Například v Chomutově se jich sloučilo 15.</p>
-</br>
-<div  style="text-align: center">
-<img src="static/nejvetsi_skolky_tab.PNG" alt="mateřské školy s největší kapacitou" style="width:60%;" >
-</div>
-</br>
+    <h2>Proč rodiče hledají jiné školky</h2>
+    <p>Dnes je nejobvyklejší tříletá rodičovská. Po jejím skončení by tříleté dítě mělo jít do školky a rodič do práce.
+        V ideálním světě by rodiče zapsali
+        dítě do obecní školky v místě bydliště a vodili ho/jí do školky. Tak tomu ale často není. Obecní školky jsou
+        plné, někde se do nich nedostanou ani všechny
+        tříleté děti, kterým zákon místo ve školce garantuje.</p>
+    <p>Jak ten problém vznikl? Na přelomu osmdesátých a devadesátých let bylo v českých školkách zhruba 400 tisíc míst.
+        K tomu existovalo 40 tisíc míst pro
+        děti od půl roku v jeslích (<a
+            href="https://www.tribune.cz/clanek/32334-jesli-v-cesku-dramaticky-ubyva">zdroj</a>).</p>
+    <p>Po roce 1990 se rodilo málo dětí, kapacity mateřských škol a jeslí se rušily, nejméně míst bylo ve školním roce
+        2001/2002. Z tohoto propadu se český systém
+        předškolní péče vzpamatovával 15 let. Proti tehdejšímu stavu dnes chybí cca 20 tisíc míst předškolní péče (když
+        jako tehdejší srovnávací základnu počtu míst bereme místa v mateřských
+        školách i v jeslích).</p>
 
-<p>Zajímavé je podívat se na <b>lesní školky</b> a <b>lesní kluby</b>. Od školního roku 2017/18 mohly i lesní školky vstupovat
-do rejstříku MŠMT. Ty, které jsou v rejstříku, dostávají dotaci z MŠMT, ale zároveň podléhají pravidlům pro výuku
-a hygienu dětí. Školky, které jsou v rejstříku, se nyní oficiálně nazývají Lesní mateřské školy, ty ostatní jsou
-Lesní kluby. Pro účely naší analýzy jsme lesní mateřské školy jako svou povahou netradiční vyčlenily z kategorie
-mateřské školy, kam právně patří, a nazvaly je <b>lesní školky</b>.</p>
+    <div style="text-align: center">
+        <img src="static/tables/pocet_mist_skolky-leta.PNG" alt="graf počtu míst ve školkách" style="width:60%">
+        </br>
+        </br>
+    </div>
 
-<p>Data o lesních klubech nejsou oficiální. Pocházejí z Asociace lesních školek, což je zájmová organizace a členství
-v ní není povinné. Člesntví v ní vzniká po splnění určitých podmínek a je k němu třeba doporučení jiné lesní školky nebo
-lesního klubu. Lesních klubů může být víc, než je v našich datech. Lesní kluby jsou právně spolky, které poskytují
-službu svým členům, touto službou je péče o děti. Nejsou známa ani data o kapacitě lesních klubů, každému lesnímu klubu
-jsme přiřadily kapacitu 12 míst. Na datech je vidět, že v rejstříku MŠMT je méně než jedna třetina školek s lesní
-pedagogikou. Důvodem, proč většina školek s lesní tematikou nechtěla do rejstříku MŠMT, je především nejasnost výkladu
-pravidel, která lesní školky v rejstříku musejí dodržovat. Hygienické stanice nebo školní inspekce nemají stanoveno,
-co u lesních školek mají kontrolovat. Tyto orgány mohou být vcelku benevolentní nebo mohou požadovat dodržování stejných
-pravidel jako v mateřské škole, čehož v podmínkách lesní školky nebo lesního klubu nelze dosáhnout. Víc o důvodech
-v článku <a href="http://lesinka.cz/proc-lesinka-neni-rejstriku-ministerstva-skolstvi/">zde</a>.</p>
+    Školní rok začíná v září a je spíše vzácné, aby dítě do školky nastoupilo v průběhu školního roku. Smůlu mají děti,
+    které
+    se narodily v zimě nebo na jaře, protože školní rok začíná až v září a do školky často nastupují třeba až půl roku
+    po třetích narozeninách. Po tuto dobu
+    jeden z rodičů nemůže pracovat, pokud nejsou po ruce babičky, dědečkové, tetičky, strýčkové nebo paní na hlídání. Je
+    to škoda, protože ženy ztrácejí
+    kvalifikaci i sebevědomí. Z platu, který by dostávaly, by státu platily daně a sociální a zdravotní pojištění,
+    tratíme na tom my všichni, protože jejich
+    práce by zvyšovala veřejné zdroje.</p>
+    <p>Jsou také rodiče, kteří se chtějí nebo musejí vrátit do práce dřív než po třetích narozeninách dítěte, ale
+        předškolní péče pro dvouleté nebo dokonce roční
+        děti je v ČR velmi málo dostupná. Rodičům nezbývá než hledat nějaké jiné školky. Shrňme si důvody, proč tak
+        činí:</p>
 
-<p><b>Dětské skupiny</b> mají průměrnou kapacitu 13 míst. Pro dětské skupiny do 12 míst platí měkčí hygienické normy než pro
-mateřské školy, dá se usuzovat, že třídy mají kapacitu do 12 dětí, průměr zvyšují dětské skupiny s více třídami.
-Dětské skupiny byly a jsou štědře dotovány. Jednou nebo dvakrát ročně MPSV vypíše evropskou dotaci cca 1,5 miliardy
-na zřízení dětských skupin a jejich dvouletý provoz.</p>
+    <ol>
+        <b>
+            <li>dítě se z kapacitních důvodů nedostane do mateřské školy</li>
+            <li>dítě by mělo nastoupit do školky v průběhu školního roku</li>
+            <li>rodiče chtějí dát do školky roční/dvouleté dítě</li>
+            <li>rodiče chtějí individuální péči, menší kolektiv, angličtinu, více kroužků</li>
+            <li>rodiče nejsou spokojeni s přístupem/personálem v obecní mateřské škole</li>
+            <li>dítě potřebuje menší kolektiv (např. poruchy autistického spektra)</li>
+            <li>dítě potřebuje speciální dietu (bezlepková, bezmléčná…)</li>
+            <li>dítě není očkováno podle očkovacího kalendáře</li>
+        </b>
+    </ol>
 
-<div  style="text-align: center">
+    <p>Rodiče hledají na internetu, Facebooku, ptají se přátel a známých. Neexistuje žádný web, kde by byly všechny
+        formy předškolní péče dohromady, rodičům nezbývá než
+        googlit, obvolávat školky a ptát se, jestli nějaká netradiční školka jejich dítě přijme. Samozřejmě přitom
+        zvažují, jestli chtějí za školku platit několik tisíc
+        korun měsíčně a je těžké odhadnout, kolik lidí to vzdá, protože se jim to nevyplatí.</p>
+    <p>Pro každý z těchto typů netradiční školky platí jiná pravidla pro docházku, která jsou důležitá pro výběr rodičů.
+        Obecně se dá konstatovat, že netradiční školky mají méně
+        početné třídy a jsou vhodnější i pro menší děti. Díky možným dotacím se také liší cenou, kterou rodiče platí.
+        Někde přispívají netradičním školkám obce
+        dotacemi, aby měly nižší školkovné a byly rodičům dostupnější. Pro obce je levnější dotovat provoz netradiční
+        školky než stavět novou mateřskou školu.</p>
 
-<img src="static/mamut.jpg" alt="svatojánská slavnost v lesní školce Lesinka" style="width:100%;" >
-</div>
-<p id="hdp">
-</br>
+    <p>Výše uvedené důvody nás vedly k vytvoření interaktivní webové stránky s ucelenými informacemi o netradičních
+        školkách a s mapou České republiky, kde se
+        dají všechny najít. Cílem našeho projektu je usnadnit rodičům nalezení nejlepší školky pro jejich dítě a také
+        popularizovat netradiční školky.
+    <p id="pece"></p>Výstupem je tato webová stránka.</p>
+    </br>
+    <h3>Typy předškolní péče v ČR</h3>
+    <p>Podle našich dat existuje ve školním roce 2018/2019 420.543 míst předškolní péče. 97% z těchto míst se nachází v
+        mateřských školách (MŠ). Netradiční školky
+        nabízejí pouze 3% míst z kapacity předškolní péče. I když je to relativně málo, tyto netradiční školky nabízejí
+        to, co rodiče nenalezli v mateřských školách, proto jsou rodiče
+        ochotni za ně platit školkovné 3.500 - 10.000Kč měsíčně plus stravu, která je dražší, protože není dotovaná jako
+        v MŠ.</p>
+    </br>
+    <div style="text-align: center">
+        <img src="static/tables/graf_skolky_mista.PNG" alt="graf počtu míst ve školkách" style="width:70%">
+        </br>
+        </br>
+    </div>
 
-</br>
+    <h4>Mateřská škola</h4>
+    <p>Je zapsaná v Rejstříku škol a školských zařízení Ministerstva školství, mládeže a tělovýchovy (MŠMT). Jsou v ní
+        děti ve věku 3-7 let.
+        Pokud to kapacita dovolí, může vzít i děti mladší tří let. Nebere neočkované děti, podává speciální dietu pouze,
+        má-li nutričního terapeuta. Předškolní rok v MŠ je
+        povinný nebo MŠ případně schvaluje individuální vzdělávací plán dětí, jejichž rodiče nechtějí, aby předškolní
+        dítě chodilo do MŠ. Existují 3 druhy mateřských škol:</p>
+    <ul>
+        <li><b>obecní/městská</b></li>
+        Jedna třída má až 24 dětí. Školkovné je symbolické, 500 - 1.000Kč. Platy personálu hradí kraje, peníze na
+        provozní výdaje dostávají od obcí.
+        <li><b>soukromá</b></li>
+        Maximálně 24 dětí ve třídě.
+        <li><b>lesní</b></li>
+        To jsou lesní školky, které se po splnění podmínek přihlásily do rejstříku MŠMT (lesní školky, které nechtěly
+        vstoupit do rejstříku se nazývají lesní kluby),
+        dostávají dotaci od státu, environmentální program, cca 15 dětí ve třídě, měkčí hygienické normy, zázemí je v
+        jurtě, maringotce apod. Pro účely naší analýzy je dále nazýváme lesní školky.
+    </ul>
+    </p>
+    <h4>Lesní klub</h4>
+    <p>Je to školka s environmentálním programem, která není v rejstříku MŠMT. Data o nich jsou na webu Asociace lesních
+        školek (ALMŠ). Mohou podávat i dietní stravu, pokud to zázemí dovolí. Pro děti ve věku 2,75 - 7 let, 12 - 15
+        dětí ve třídě, předškoláci do lesního klubu mohou chodit,
+        když si rodiče vyřídí individuální vzdělávací plán v mateřské škole, kam pak přivedou děti na přezkoušení.
+        Provoz lesního klubu zcela hradí rodiče, např. 5.500Kč měsíčně.</p>
 
-<h2>Počet míst ve školkách vs. ekonomická úroveň</h2>
-<p><b>Hypotéza: pro opětovné zapojení žen do pracovního procesu je nutné, aby se o jejich děti někdo postaral, když budou
-v práci. Bez toho ženy nemohou do práce a nemohou vytvářet HDP, produkt daného kraje. </b>
+    <h4>Dětská skupina</h4>
+    <p>Může brát děti od jednoho nebo dvou let až do sedmi let, záleží na vedení dětské skupiny, pro co se rozhodnou.
+        Pouze pro děti očkované podle očkovacího kalendáře,
+        typicky třída do 12 dětí, pokud je ve třídě víc dětí, platí stejná hygienická pravidla jako v MŠ. Dostávají
+        dotace z MŠMT/ EU, na provoz přispívají i rodiče, např. 3.500Kč měsíčně.
+        Kvůli štědrým dotacím zřizují dětské skupiny i obce, které jimi nahrazovaly chybějící kapacitu MŠ, například ve
+        Šlapanicích, od rodičů pak mohou požadovat stejné (stejně nízké)
+        školkovné jako v obecní mateřské škole.</p>
+    <h4>Mikrojesle</h4>
+    <p>Pro děti od půl roku do čtyř let, ve třídě maximálně 4 děti, pouze pro očkované děti. Dostávají dotace z MŠMT/
+        EU, někdy je zřizují i obce, na provoz přispívají
+        i rodiče, např. 3.500Kč měsíčně.</p>
 
-<p>Máme k dispozici data o počtu míst v mateřských školách v jednotlivých krajích, zdroj: <a href="https://www.czso.cz">ČSÚ</a>.
-Počet obyvatel v jednotlivých krajích jsme vydělily počtem míst ve školkách. Výsledná hodnota je počet obyvatel připadajících
-na jedno místo ve školce, tj. relativní dostupnost míst ve školkách v krajích. Statisticky vhodnější by byla data o počtu dětí
-ve věku 2-6 let, ale taková data pro jednotlivé kraje jsou v agregované podobě nedostupná a musela by se dopočítávat.</p>
-
-<p>Druhou zkoumanou veličinou je ekonomická úroveň kraje vyjádřená jako hrubý domácí produkt (HDP) v kraji přepočtený na jednoho obyvatele.
-Data z Prahy jsou zvláštní a úplně jiná než z ostatních krajů. Výpočet HDP na obyvatele v Praze je věcně chybný, protože do Prahy přijíždí
-pracovat lidé ze Středočeského kraje a i ze vzdálenějšího okolí. Produkt, který se v Praze vytvoří, je ale rozpočítáván pouze mezi
-obyvatele Prahy a tak je mnohem vyšší. V roce 2016, ze kterého má ČSÚ data, HDP v Praze na obyvatele 200% průměru ČR. Ve statistice
-v jiných zemích se tento problém odstraňuje tak, že se sloučí oblasti velkého a bohatého města s přilehlou oblastí, odkud tam  do práce
-dojíždějí lidé. V našem případě bychom sloučily Středočeský kraj a Prahu do jednoho "statistického" kraje. Když jsme to udělaly, vyšlo nám,
-že HDP Prahy a Středočeského kraje na obyvatele je 150% průměru České republiky. I tak se tento kraj vymyká, zvlášt když v porovnání
-například s nejchudším Karlovarským krajem, jehož ekonomická úroveň dosahuje pouze 68% průměru ČR. Proto jsme Prahu z našich úvah
-vyloučily a v grafu není, Praha je úplně jiná ekonomika než zbytek ČR. Nechaly jsme tam pouze Středočeský kraj.</p>
-
-<p>V grafu na ose X je relativní dostupnost míst ve školkách (podíl obyvatel a míst ve školkách), na ose Y je index ekonomické úrovně kraje,
-průměr za ČR je 100.</p>
-
-<p>Na grafu je vidět, že určitá korelace mezi těmito veličinami existuje. Dva nejchudší kraje, mají také nejvyšší
-počet obyvatel na jedno místo v mateřské škole, tzn. místa ve školkách jsou relativně méně dostupná než ve zbytku ČR. Když je kraj bohatší,
-má i relativně dostupnější předškolní péči. Ověřovaly jsme také průměrný věk v krajích, ale nedá se říci, že by kraje s relativně menší
-dostupností školek byly výrazně starší, tj. rodilo by se v nich méně dětí a školková místa by nebyla třeba.</p>
-
-<p>Dá se konstatovat, že ekonomická úroveň kraje souvisí s dostupností předškolní péče, ale z grafu nemůžeme rozhodnout o kauzální závislosti.
-Tam si můžeme pomoci ekonomickou teorií. Když ženy-matky chodí do práce, vydělávají peníze, z jejich platů se odvádí sociální a zdravotní
-pojištění, platí daně, své platy utrácejí v obchodech a za služby a ti, kterým platí, mají zisk a zase odvádějí daně, sociální a zdravotní
-pojitění. V makroekonomie se to nazývá multiplikační efekt a blahobyt jednoho subjektu zvyšuje i soukromé jiných osob (zisk, který se dále
-rozděluje na platy zaměstnanců) a veřejné zdroje (příjmy z daní a pojistného).</p>
-<p>Horší relativní dostupnost školkových míst může souviset s relativně špatnou kvalitou veřejné správy v těchto nejchudších oblastech ČR a
-například s neschopností získat dotace na stavbu mateřské školy nebo zřízení dětské skupiny.</p>
-
-<p>Kdybychom měly udělat statistickou analýzu, která by tento předpoklad potvrdila nebo vyvrátila, vzaly bychom 8 obcí,
-2 v Ústeckém kraji, 2 v Karlovarském kraji, 2 v jihočeském kraji a 2 ve středočeském kraji. V polovině těchto obcí bychom
-postavily školku tak, aby v každém kraji jedna obec měla novou školku a ta druhá ne. Po pěti letech bychom zkoumaly,
-jestli se ekonomická úroveň obcí/okresů relativně i absolutně změnila či nikoliv a porovnávaly výsledky pro obce s novými školkami a bez nich.
-Takový experiment už v rámci Digitální akademie nestihneme.</p>
-
-<div  style="text-align: center">
-</br>
-<img src="static/kraje_hdp.PNG" alt="graf vztahu ekonomické úrovně a dostupnosti předškolní péče" style="width:100%;" >
-</div>
-</br>
-</br>
-
-<p id="technicke"></p>
-
-
-</br>
-</br>
-
-<h2>Technické řešení projektu</h2>
-
-<p>Data o lesních školkách, dětských skupinách a mikrojeslích jsme tzv. scrapovaly z webových stránek pomocí modulu "request" v Pythonu.
-Každý web byl trochu jiný, použily jsme pro ně 3 různé skripty v Pythonu, <a href = "https://docs.google.com/document/d/1X4GuoSLSZYm1rryycvJkzFnHLnu1IgTXPpVUY7NpPfI/edit?usp=sharing">ukázka zde</a>.
-Regulárními výrazy jsme vysekaly data z webové stránky a uložily je do csv souboru. Tabulky jsme manuálně spojovaly, aby se nic neztratilo,
-protože na každém webu byla jiná data. Někde byly emaily, weby, GPS souřadnice, ale nikdy to nebylo všechno dohromady.</p>
-<p>Databáze Ministerstva školství se jmenuje Rejstřík škol a školských subjektů a obsahuje data o všech školských zařízeních
-na všech stupních v ČR. Data z této databáze nešly vyscrapovat. Po několikatýdenním uvažování a vyptávání se co a jak, stačilo
-zavolat na Ministerstvo školství a tam nás navedli na stránku, kde se data dají exportovat do 15 csv souborů.</p>
-<p>Z dat z MŠMT bylo třeba vyjmout lesní mateřské školy, porovnat je s daty z Asociace lesních školek a rozdělit je na lesní kluby
-(nejsou v rejstříku MŠMT) a lesní školky (jsou v rejstříku MŠMT). Data o lesních klubech by se bez ALMŠ nedala získat, v lesních
-klubech je cca 1300 dětí, nechtěly jsme je vynechat i když s nimi byly největší problémy. Některé ze subjektů z webu uvedených
-ALMŠ se staly dětskými skupinami nebo lesními školkami, ale data na webu ALMŠ nebyla aktualizována. Případně adresu nebylo Power BI
-schopno správně zakreslit do mapy. Takové výjimky jsme jednotlivě ošetřily budˇ dohledáním přesnější adresy nebo vymazáním subjektů
-z kategorie lesních klubů, pokud se zařadily do jiného typu netradiční školky.</p>
-<p>Data jsme nahrály do Power BI a vytvořily vizualizace.</p>
+    <p id="analyza"></p>
+    </br>
+    </br>
+    <h2>Analýza dat</h2>
+    <p>Postup získávání dat je detailně popsán v kapitole <a href=#technicke>Technické řešení projektu</a>.
+        Pro analýzu dat byla nejdůležitější data o kapacitě školek, zde
+        je přehled všech subjektů předškolní péče, které máme v datovém souboru. </p>
 
 
-<h3>Webová stránka</h3>
-<p>Cílem našeho projektu bylo vytvořit webovou stránku, na které by se daly najít netradiční školky.
-Výsledná data byla nahrána do Azure databáze přes Management Studio a měly jsme připravený fungující
-Python skript pro spojení databáze a webové stránky. Naučily jsem se pracovat s Git.</p>
-<p>Vybraly jsme si Flask Microframework. Webová stránka byla vytvořena na <a href = "https://www.pythonanywhere.com/">https://www.pythonanywhere.com/</a>.</p>
+    <div style="text-align: center">
+        <img src="static/tables/skolky_prehled.PNG" alt="celkový pohled na školky" style="width:60%;">
+    </div>
+    </br>
+    <p><b>Mateřské školy</b> mají průměrnou kapacitu 76 míst, jsou to zařízení, kde je v průměru více tříd. MŠ s
+        největší kapacitou mají i přes 1000 míst pro děti. Není to jedna obrovská školka, ale je to administrativní
+        sloučení více MŠ do jedné. Například v Chomutově se jich sloučilo 15.</p>
+    </br>
+    <div style="text-align: center">
+        <img src="static/tables/nejvetsi_skolky_tab.PNG" alt="mateřské školy s největší kapacitou" style="width:60%;">
+    </div>
+    </br>
 
-</br>
-<div  style="text-align: center">
-<img src="static/Flask.PNG" alt="Flask microframework, pythonanywhere" style="width:80%;" >
-</div>
-</br>
-<p>Naším cílem bylo vytvořit na webu mapu s netradičními školkami. Zvolily jsme řešení s vložením mapy z Power BI a
-vyřadily mateřské školy, kterých je nejvíc, ale zároveň každý je zná a zúžily jsme výběr školek pouze na ty netradiční.
-Mapa z Power BI je řešení elegantní a zároveň jednoduché.</p>
-<p>Programátorsky zajímavější řešení je nechat uživatele na webu zadat adresu, kde hledá školku. Program v Pythonu by adresu převedl
-na GPS souřadnice, přepočítal vzdálenosti od školek, školky do 13km by vykreslil do Google Static Maps na webu a vypsal jejich údaje.
-To řešení je popsáno na <a href="https://github.com/mbrezina/netradicni_web">GitHub profilu</a>  a na webu je  <a href="http://martiik.pythonanywhere.com/map">zde</a>.</p>
+    <p>Zajímavé je podívat se na <b>lesní školky</b> a <b>lesní kluby</b>. Od školního roku 2017/18 mohly i lesní školky
+        vstupovat
+        do rejstříku MŠMT. Ty, které jsou v rejstříku, dostávají dotaci z MŠMT, ale zároveň podléhají pravidlům pro
+        výuku
+        a hygienu dětí. Školky, které jsou v rejstříku, se nyní oficiálně nazývají Lesní mateřské školy, ty ostatní jsou
+        Lesní kluby. Pro účely naší analýzy jsme lesní mateřské školy jako svou povahou netradiční vyčlenily z kategorie
+        mateřské školy, kam právně patří, a nazvaly je <b>lesní školky</b>.</p>
 
-<p>Během práce na projektu se naše cesty mnohdy ubíraly slepými uličkami, kdy jsme se něco naučily, abychom záhy zjistily, že existuje jiné a lepší řešení.
-Vedlejším efektem bylo, že jsme si "osahaly" a zprovoznily spoustu technických řešení i když jsme je nakonec nepotřebovaly, například Git.</p>
+    <p>Data o lesních klubech nejsou oficiální. Pocházejí z Asociace lesních školek, což je zájmová organizace a
+        členství
+        v ní není povinné. Člesntví v ní vzniká po splnění určitých podmínek a je k němu třeba doporučení jiné lesní
+        školky nebo
+        lesního klubu. Lesních klubů může být víc, než je v našich datech. Lesní kluby jsou právně spolky, které
+        poskytují
+        službu svým členům, touto službou je péče o děti. Nejsou známa ani data o kapacitě lesních klubů, každému
+        lesnímu klubu
+        jsme přiřadily kapacitu 12 míst. Na datech je vidět, že v rejstříku MŠMT je méně než jedna třetina školek s
+        lesní
+        pedagogikou. Důvodem, proč většina školek s lesní tematikou nechtěla do rejstříku MŠMT, je především nejasnost
+        výkladu
+        pravidel, která lesní školky v rejstříku musejí dodržovat. Hygienické stanice nebo školní inspekce nemají
+        stanoveno,
+        co u lesních školek mají kontrolovat. Tyto orgány mohou být vcelku benevolentní nebo mohou požadovat dodržování
+        stejných
+        pravidel jako v mateřské škole, čehož v podmínkách lesní školky nebo lesního klubu nelze dosáhnout. Víc o
+        důvodech
+        v článku <a href="http://lesinka.cz/proc-lesinka-neni-rejstriku-ministerstva-skolstvi/">zde</a>.</p>
 
-<p>Na našem webu naleznete mapu z Power BI, ve které se dá zoomovat a najít oblast, která návštěvníka zajímá.
-Jednotlivé typy školek jsou vyznačeny barevně odlišenými puntíky, velikost puntíků je dána kapacitou školky.
-Po přejetí myší přes puntík se zobrazí název, adresa, kapacita a typ netradiční školky, podle nás nejdůležitější vodítka při výběru rodičů.</p>
-<p>Na webu máme také text projektu a verzi v <a href="/english">angličtině<a/>, protože v České republice žije spousta cizinců a jejich orientace
-v české předškolní péči bez znalosti jazyka je obtížná.</p>
+    <p><b>Dětské skupiny</b> mají průměrnou kapacitu 13 míst. Pro dětské skupiny do 12 míst platí měkčí hygienické normy
+        než pro
+        mateřské školy, dá se usuzovat, že třídy mají kapacitu do 12 dětí, průměr zvyšují dětské skupiny s více třídami.
+        Dětské skupiny byly a jsou štědře dotovány. Jednou nebo dvakrát ročně MPSV vypíše evropskou dotaci cca 1,5
+        miliardy
+        na zřízení dětských skupin a jejich dvouletý provoz.</p>
 
-<h4>Možný další postup</h4>
-<p>Aby byl web stále aktuální, bylo by dobré zadat na pythonanywhere skripty (“Tasks”), které by pravidelně získávaly data z webů,
-</p>nahrávaly by je do databáze na Azure, ze které by brala data webová stránka a tak by byla neustále zajištěna
-aktuálnost údajů o netradičních školkách. <p id="podekovani">Jen bychom už ale asi nebraly data z Asociace lesních školek.</p>
-</br>
+    <div style="text-align: center">
 
-<h3>Poděkování a odkazy</h3>
-<p>Chtěly bychom poděkovat <a href="https://plant.id">Ondřeji Veselému</a> a <a href = "https://office.lasakovi.com">Pavlu Lasákovi</a> za čas a energii,
-kterou nám věnovali, bez nich bychom se toho tolik nenaučily.
-Děkujeme také všem lektorkám a lektorům, koučkám a koučům za skvělou <a href="https://www.czechitas.cz/cs/co-delame/digitalni-akademie">Digitální akademii</a>,
-která byla obsahově i didakticky výborně připravená.</p>
+        <img src="static/mamut.jpg" alt="svatojánská slavnost v lesní školce Lesinka" style="width:100%;">
+    </div>
+    <p id="hdp">
+        </br>
 
-<p>Pokud byste se chtěli něco dozvědět o lesních školkách, můžete se podívat na <a href="https://www.facebook.com/skolkalesinka/">Facebook lesního klubu Lesinka</a>.</p>
-<p>Pokud byste se chtěli seznámit s dětskou skupinou, můžete se podívat na <a href = "https://vlastovickyzs.webnode.cz">web dětské skupiny Vlaštovičky</a>.</p>
-<p>Všechny fotky na tomto webu pochází z lesního klubu Lesinka a ty nejkrásnější vyfotila <a href="https://ladyesik.wordpress.com/fotografie/">Ester Dobiášová</a>.</p>
+        </br>
 
-<p>Pokud hledáte videa na učení se Pythonu, určitě se podívejte na <a href="https://www.youtube.com/user/schafer5/featured">videa Corey Shafera</a>.</p>
+    <h2>Počet míst ve školkách vs. ekonomická úroveň</h2>
+    <p><b>Hypotéza: pro opětovné zapojení žen do pracovního procesu je nutné, aby se o jejich děti někdo postaral, když
+        budou
+        v práci. Bez toho ženy nemohou do práce a nemohou vytvářet HDP, produkt daného kraje. </b>
 
-<img src="static/mlyn.jpg" alt="lesní školka Lesinka" style="width:100%;">
+    <p>Máme k dispozici data o počtu míst v mateřských školách v jednotlivých krajích, zdroj: <a
+        href="https://www.czso.cz">ČSÚ</a>.
+        Počet obyvatel v jednotlivých krajích jsme vydělily počtem míst ve školkách. Výsledná hodnota je počet obyvatel
+        připadajících
+        na jedno místo ve školce, tj. relativní dostupnost míst ve školkách v krajích. Statisticky vhodnější by byla
+        data o počtu dětí
+        ve věku 2-6 let, ale taková data pro jednotlivé kraje jsou v agregované podobě nedostupná a musela by se
+        dopočítávat.</p>
 
-</br>
-</br>
+    <p>Druhou zkoumanou veličinou je ekonomická úroveň kraje vyjádřená jako hrubý domácí produkt (HDP) v kraji
+        přepočtený na jednoho obyvatele.
+        Data z Prahy jsou zvláštní a úplně jiná než z ostatních krajů. Výpočet HDP na obyvatele v Praze je věcně chybný,
+        protože do Prahy přijíždí
+        pracovat lidé ze Středočeského kraje a i ze vzdálenějšího okolí. Produkt, který se v Praze vytvoří, je ale
+        rozpočítáván pouze mezi
+        obyvatele Prahy a tak je mnohem vyšší. V roce 2016, ze kterého má ČSÚ data, HDP v Praze na obyvatele 200%
+        průměru ČR. Ve statistice
+        v jiných zemích se tento problém odstraňuje tak, že se sloučí oblasti velkého a bohatého města s přilehlou
+        oblastí, odkud tam do práce
+        dojíždějí lidé. V našem případě bychom sloučily Středočeský kraj a Prahu do jednoho "statistického" kraje. Když
+        jsme to udělaly, vyšlo nám,
+        že HDP Prahy a Středočeského kraje na obyvatele je 150% průměru České republiky. I tak se tento kraj vymyká,
+        zvlášt když v porovnání
+        například s nejchudším Karlovarským krajem, jehož ekonomická úroveň dosahuje pouze 68% průměru ČR. Proto jsme
+        Prahu z našich úvah
+        vyloučily a v grafu není, Praha je úplně jiná ekonomika než zbytek ČR. Nechaly jsme tam pouze Středočeský
+        kraj.</p>
+
+    <p>V grafu na ose X je relativní dostupnost míst ve školkách (podíl obyvatel a míst ve školkách), na ose Y je index
+        ekonomické úrovně kraje,
+        průměr za ČR je 100.</p>
+
+    <p>Na grafu je vidět, že určitá korelace mezi těmito veličinami existuje. Dva nejchudší kraje, mají také nejvyšší
+        počet obyvatel na jedno místo v mateřské škole, tzn. místa ve školkách jsou relativně méně dostupná než ve
+        zbytku ČR. Když je kraj bohatší,
+        má i relativně dostupnější předškolní péči. Ověřovaly jsme také průměrný věk v krajích, ale nedá se říci, že by
+        kraje s relativně menší
+        dostupností školek byly výrazně starší, tj. rodilo by se v nich méně dětí a školková místa by nebyla třeba.</p>
+
+    <p>Dá se konstatovat, že ekonomická úroveň kraje souvisí s dostupností předškolní péče, ale z grafu nemůžeme
+        rozhodnout o kauzální závislosti.
+        Tam si můžeme pomoci ekonomickou teorií. Když ženy-matky chodí do práce, vydělávají peníze, z jejich platů se
+        odvádí sociální a zdravotní
+        pojištění, platí daně, své platy utrácejí v obchodech a za služby a ti, kterým platí, mají zisk a zase odvádějí
+        daně, sociální a zdravotní
+        pojitění. V makroekonomie se to nazývá multiplikační efekt a blahobyt jednoho subjektu zvyšuje i soukromé jiných
+        osob (zisk, který se dále
+        rozděluje na platy zaměstnanců) a veřejné zdroje (příjmy z daní a pojistného).</p>
+    <p>Horší relativní dostupnost školkových míst může souviset s relativně špatnou kvalitou veřejné správy v těchto
+        nejchudších oblastech ČR a
+        například s neschopností získat dotace na stavbu mateřské školy nebo zřízení dětské skupiny.</p>
+
+    <p>Kdybychom měly udělat statistickou analýzu, která by tento předpoklad potvrdila nebo vyvrátila, vzaly bychom 8
+        obcí,
+        2 v Ústeckém kraji, 2 v Karlovarském kraji, 2 v jihočeském kraji a 2 ve středočeském kraji. V polovině těchto
+        obcí bychom
+        postavily školku tak, aby v každém kraji jedna obec měla novou školku a ta druhá ne. Po pěti letech bychom
+        zkoumaly,
+        jestli se ekonomická úroveň obcí/okresů relativně i absolutně změnila či nikoliv a porovnávaly výsledky pro obce
+        s novými školkami a bez nich.
+        Takový experiment už v rámci Digitální akademie nestihneme.</p>
+
+    <div style="text-align: center">
+        </br>
+        <img src="static/tables/kraje_hdp.PNG" alt="graf vztahu ekonomické úrovně a dostupnosti předškolní péče"
+             style="width:100%;">
+    </div>
+    </br>
+    </br>
+
+    <p id="technicke"></p>
+
+
+    </br>
+    </br>
+
+    <h2>Technické řešení projektu</h2>
+
+    <p>Data o lesních školkách, dětských skupinách a mikrojeslích jsme tzv. scrapovaly z webových stránek pomocí modulu
+        "request" v Pythonu.
+        Každý web byl trochu jiný, použily jsme pro ně 3 různé skripty v Pythonu, <a
+            href="https://docs.google.com/document/d/1X4GuoSLSZYm1rryycvJkzFnHLnu1IgTXPpVUY7NpPfI/edit?usp=sharing">ukázka
+            zde</a>.
+        Regulárními výrazy jsme vysekaly data z webové stránky a uložily je do csv souboru. Tabulky jsme manuálně
+        spojovaly, aby se nic neztratilo,
+        protože na každém webu byla jiná data. Někde byly emaily, weby, GPS souřadnice, ale nikdy to nebylo všechno
+        dohromady.</p>
+    <p>Databáze Ministerstva školství se jmenuje Rejstřík škol a školských subjektů a obsahuje data o všech školských
+        zařízeních
+        na všech stupních v ČR. Data z této databáze nešly vyscrapovat. Po několikatýdenním uvažování a vyptávání se co
+        a jak, stačilo
+        zavolat na Ministerstvo školství a tam nás navedli na stránku, kde se data dají exportovat do 15 csv
+        souborů.</p>
+    <p>Z dat z MŠMT bylo třeba vyjmout lesní mateřské školy, porovnat je s daty z Asociace lesních školek a rozdělit je
+        na lesní kluby
+        (nejsou v rejstříku MŠMT) a lesní školky (jsou v rejstříku MŠMT). Data o lesních klubech by se bez ALMŠ nedala
+        získat, v lesních
+        klubech je cca 1300 dětí, nechtěly jsme je vynechat i když s nimi byly největší problémy. Některé ze subjektů z
+        webu uvedených
+        ALMŠ se staly dětskými skupinami nebo lesními školkami, ale data na webu ALMŠ nebyla aktualizována. Případně
+        adresu nebylo Power BI
+        schopno správně zakreslit do mapy. Takové výjimky jsme jednotlivě ošetřily budˇ dohledáním přesnější adresy nebo
+        vymazáním subjektů
+        z kategorie lesních klubů, pokud se zařadily do jiného typu netradiční školky.</p>
+    <p>Data jsme nahrály do Power BI a vytvořily vizualizace.</p>
+
+
+    <h3>Webová stránka</h3>
+    <p>Cílem našeho projektu bylo vytvořit webovou stránku, na které by se daly najít netradiční školky.
+        Výsledná data byla nahrána do Azure databáze přes Management Studio a měly jsme připravený fungující
+        Python skript pro spojení databáze a webové stránky. Naučily jsem se pracovat s Git.</p>
+    <p>Vybraly jsme si Flask Microframework. Webová stránka byla vytvořena na <a href="https://www.pythonanywhere.com/">https://www.pythonanywhere.com/</a>.
+    </p>
+
+    </br>
+    <div style="text-align: center">
+        <img src="static/Flask.PNG" alt="Flask microframework, pythonanywhere" style="width:80%;">
+    </div>
+    </br>
+    <p>Naším cílem bylo vytvořit na webu mapu s netradičními školkami. Zvolily jsme řešení s vložením mapy z Power BI a
+        vyřadily mateřské školy, kterých je nejvíc, ale zároveň každý je zná a zúžily jsme výběr školek pouze na ty
+        netradiční.
+        Mapa z Power BI je řešení elegantní a zároveň jednoduché.</p>
+    <p>Programátorsky zajímavější řešení je nechat uživatele na webu zadat adresu, kde hledá školku. Program v Pythonu
+        by adresu převedl
+        na GPS souřadnice, přepočítal vzdálenosti od školek, školky do 13km by vykreslil do Google Static Maps na webu a
+        vypsal jejich údaje.
+        To řešení je popsáno na <a href="https://github.com/mbrezina/netradicni_web">GitHub profilu</a> a na webu je <a
+            href="http://martiik.pythonanywhere.com/map">zde</a>.</p>
+
+    <p>Během práce na projektu se naše cesty mnohdy ubíraly slepými uličkami, kdy jsme se něco naučily, abychom záhy
+        zjistily, že existuje jiné a lepší řešení.
+        Vedlejším efektem bylo, že jsme si "osahaly" a zprovoznily spoustu technických řešení i když jsme je nakonec
+        nepotřebovaly, například Git.</p>
+
+    <p>Na našem webu naleznete mapu z Power BI, ve které se dá zoomovat a najít oblast, která návštěvníka zajímá.
+        Jednotlivé typy školek jsou vyznačeny barevně odlišenými puntíky, velikost puntíků je dána kapacitou školky.
+        Po přejetí myší přes puntík se zobrazí název, adresa, kapacita a typ netradiční školky, podle nás nejdůležitější
+        vodítka při výběru rodičů.</p>
+    <p>Na webu máme také text projektu a verzi v <a href="/english">angličtině<a/>, protože v České republice žije
+        spousta cizinců a jejich orientace
+        v české předškolní péči bez znalosti jazyka je obtížná.</p>
+
+    <h4>Možný další postup</h4>
+    <p>Aby byl web stále aktuální, bylo by dobré zadat na pythonanywhere skripty (“Tasks”), které by pravidelně
+        získávaly data z webů,
+    </p>nahrávaly by je do databáze na Azure, ze které by brala data webová stránka a tak by byla neustále zajištěna
+    aktuálnost údajů o netradičních školkách. <p id="podekovani">Jen bychom už ale asi nebraly data z Asociace lesních
+    školek.</p>
+    </br>
+
+    <h3>Poděkování a odkazy</h3>
+    <p>Chtěly bychom poděkovat <a href="https://plant.id">Ondřeji Veselému</a> a <a href="https://office.lasakovi.com">Pavlu
+        Lasákovi</a> za čas a energii,
+        kterou nám věnovali, bez nich bychom se toho tolik nenaučily.
+        Děkujeme také všem lektorkám a lektorům, koučkám a koučům za skvělou <a
+            href="https://www.czechitas.cz/cs/co-delame/digitalni-akademie">Digitální akademii</a>,
+        která byla obsahově i didakticky výborně připravená.</p>
+
+    <p>Pokud byste se chtěli něco dozvědět o lesních školkách, můžete se podívat na <a
+        href="https://www.facebook.com/skolkalesinka/">Facebook lesního klubu Lesinka</a>.</p>
+    <p>Pokud byste se chtěli seznámit s dětskou skupinou, můžete se podívat na <a
+        href="https://vlastovickyzs.webnode.cz">web dětské skupiny Vlaštovičky</a>.</p>
+    <p>Všechny fotky na tomto webu pochází z lesního klubu Lesinka a ty nejkrásnější vyfotila <a
+        href="https://ladyesik.wordpress.com/fotografie/">Ester Dobiášová</a>.</p>
+
+    <p>Pokud hledáte videa na učení se Pythonu, určitě se podívejte na <a
+        href="https://www.youtube.com/user/schafer5/featured">videa Corey Shafera</a>.</p>
+
+    <img src="static/mlyn.jpg" alt="lesní školka Lesinka" style="width:100%;">
+
+    </br>
+    </br>
 </div>
 
 {% endblock content %}
