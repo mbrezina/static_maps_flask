@@ -5,8 +5,8 @@
     <p>Tyto informace pocházejí z podzimu 2018, pro aktuální informace se podívejte do rejstříků předškolní péče
         v přehledu vpravo.</p>
 
-    <img width="640" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom=" + zoom +
-    "&scale=1&size=740x640&maptype=roadmap
+    <img width="640" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom={{zoom}}
+    &scale=1&size=740x640&maptype=roadmap
     {% for item in vysledne_poradi %}
     &markers=color:green%7Clabel:Le%7C{{item[4]}},{{item[5]}}
     {% endfor %}
