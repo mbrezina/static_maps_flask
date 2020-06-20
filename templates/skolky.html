@@ -5,11 +5,12 @@
     <p>Tyto informace pocházejí z podzimu 2018, pro aktuální informace se podívejte do rejstříků předškolní péče
         v přehledu vpravo.</p>
 
-    <img width="640" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom=11&scale=1&size=740x640&maptype=roadmap
-{% for item in vysledne_poradi  %}
-&markers=color:green%7Clabel:Le%7C{{item[4]}},{{item[5]}}
-{% endfor %}
-&key=AIzaSyAuYquRtR8QirPPZq3yzh7QAkOR-0yQ5l0&format=png&visual_refresh=true" alt="Google Map of {{misto}},">
+    <img width="640" src="https://maps.googleapis.com/maps/api/staticmap?center={{misto}},&zoom=" + zoom +
+    "&scale=1&size=740x640&maptype=roadmap
+    {% for item in vysledne_poradi %}
+    &markers=color:green%7Clabel:Le%7C{{item[4]}},{{item[5]}}
+    {% endfor %}
+    &key=AIzaSyAuYquRtR8QirPPZq3yzh7QAkOR-0yQ5l0&format=png&visual_refresh=true" alt="Google Map of {{misto}},">
 
     </br>
     </br>
