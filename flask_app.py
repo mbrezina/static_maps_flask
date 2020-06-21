@@ -71,6 +71,7 @@ def skolky():
                 coord2 = lat2, lon2
                 vzdalenost = (haversine(coord1, coord2)) / 1000
                 poradi_vzdalenosti.append([row[1], row[2], row[3], float('%2.2f' % (vzdalenost)), row[4], row[5]])
+        print(poradi_vzdalenosti)
         if len(poradi_vzdalenosti) > 0:
             zoom = 6
         else:
