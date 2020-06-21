@@ -48,7 +48,7 @@ def skolky():
     c = conn.cursor()
     c.execute("SELECT * FROM lesni2")
     rows = c.fetchall()
-    zoom = 11
+    ######zoom = 11
     for row in rows:
         lat2 = float(row[4])
         lon2 = float(row[5])
@@ -73,10 +73,10 @@ def skolky():
         if len(poradi_vzdalenosti) > 0:
             zoom = 10
         else:
-            return render_template("zadne_skolky.html", title="Žádné školky v oblasti", misto=hledanemisto)
+            return render_template("zadne_skolky.html", title="Žádné školky v oblasti", misto=hledanemisto, zoom=10)
 
     poradi = sorted(poradi_vzdalenosti, key=lambda x: x[3])
-    return render_template("skolky.html", title = "Nalezené školky", misto=hledanemisto, vysledne_poradi=poradi, zoom=zoom)
+    return render_template("skolky.html", title = "Nalezené školky", misto=hledanemisto, vysledne_poradi=poradi, zoom=11)
 
 
 def haversine(coord1, coord2):

@@ -5,9 +5,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #4E0250;
+  color: #4e0250;
+}
+
+th {
+    background-color: #dde26a;
+    font-weight: bold;
 
 }
+
 
 input[type=text] {
     background-color: white;
