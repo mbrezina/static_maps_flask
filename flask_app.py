@@ -65,8 +65,9 @@ def skolky():
             lat2 = float(row[4])
             lon2 = float(row[5])
             """zvětší se oblast pro hledání školek:"""
-            if (lat2 < (lat1 + 0.1)) and (lat2 > (lat1 - 0.1)) and (lon2 > (lon1 - 0.25)) and (
-                lon2 < (lon1 + 0.25)):
+            ####if (lat2 < (lat1 + 0.1)) and (lat2 > (lat1 - 0.1)) and (lon2 > (lon1 - 0.25)) and (
+            if (lat2 < (lat1 + 0.5)) and (lat2 > (lat1 - 0.5)) and (lon2 > (lon1 - 0.5)) and (
+                lon2 < (lon1 + 0.5)):
                 coord1 = lat1, lon1
                 coord2 = lat2, lon2
                 vzdalenost = (haversine(coord1, coord2)) / 1000
