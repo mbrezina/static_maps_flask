@@ -55,7 +55,7 @@ def skolky():
     c = conn.cursor()
     c.execute("SELECT * FROM lesni2")
     rows = c.fetchall()
-    zoom = 12
+    zoom = 11
     for row in rows:
         lat2 = float(row[4])
         lon2 = float(row[5])
@@ -79,7 +79,7 @@ def skolky():
                 poradi_vzdalenosti.append([row[1], row[2], row[3], float('%2.2f' % (vzdalenost)), row[4], row[5]])
         print(poradi_vzdalenosti)
         if len(poradi_vzdalenosti) > 0:
-            zoom = 10
+            zoom = 9
         else:
             return render_template("zadne_skolky.html", title="Žádné školky v oblasti", misto=hledanemisto)
 
